@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cao Văn Vượng - 21130253</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ex1.html">
+    <link rel="stylesheet" href="ex2.html">
+    <link rel="stylesheet" href="https://player.vimeo.com/external/386628887.hd.mp4?s=ae3df9c72e0a7101078c7fcfd303be25802b377a&profile_id=174">
+    <style>
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content-1{
+    margin-top: 46px;
+    height: 930px;
+    text-align: center;
+    background: url(/assets/img/ex1.jpg) top center /cover no-repeat;
+    background-size: 100% 100%;
+    padding: 0 0 20px;
+}
+
+#content-1 .design-1{
+    height: 800px;
+
+}
+
+#content-1 a{
+    text-decoration: none;
+}
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    background-color: #000;
+    z-index: 1;
+}
+
+#nav{
+}
+    
+#nav > li{
+    display: inline-block;
+}
+    
+#nav li{
+    position: relative;
+}
+    
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+    
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    margin: 0 20px;
+}
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+#header .download{
+    line-height: 46px;
+}
+#content_1{
+    margin-top: 46px;
+    padding: 200px 100px 0 150px;
+    line-height: 2;
+}
+#content-1 .download-btn{
+    position: absolute;
+    left: 20px;
+}
+#header .navbar{
+    height: 46px;
+    margin: 0 12%;
+    display: flex;
+    width: 1450px;
+}
+
+#header .navbar .navbar_name{
+    color: #fff;
+    display: inline-block;
+    line-height: 46px;
+}
+
+#header .navbar .navbar_btn{
+    display: block;
+    padding: 0 22%;
+    line-height: 46px;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content_1 .container video, .back-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.download-btn{
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    /* left: 20px; */
+}
+
+.download-btn:hover{
+    background-color: royalblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+   <div class="main">
+        <div id="header">
+          <div class="navbar">
+               <div class="navbar_name"><a href="index.html" style="color: #fff; text-decoration: none;"><h1>Cao Văn Vượng</h1></a></div>
+               <div class="navbar_btn">
+                    <ul id="nav">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="ex1.html">Ex1</a></li>
+                         <li><a href="ex2.html">Ex2</a></li>
+                        </ul>
+               </div>
+               <div class="download">
+                    <a href="ex1.html" download='computer' title="Bạn muốn tải file này về máy" class="download-btn">Download
+                         <i class="fa fa-download"></i>
+                    </a>
+               </div>
+          </div>
+        </div>
+    
+        <div id="content_1">
+          <div class="container">
+               <video src="https://player.vimeo.com/external/386628887.hd.mp4?s=ae3df9c72e0a7101078c7fcfd303be25802b377a&profile_id=174" loop autoplay muted></video>
+          </div>
+
+          <div class="text" style="color:rgb(247, 90, 0); font-size: 48px;" >
+               <p>My name is <h1>Cao Văn Vượng</h1></p>
+               <ul>
+                    <li>I'm new to programming</li>
+                    <li>I want to bring people a lot of knowledge and creativity in the work of programmers</li>
+               </ul>
+          </div>
+        </div>
+   </div>
+</body>
+</html>
